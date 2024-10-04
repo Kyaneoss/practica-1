@@ -14,3 +14,4 @@ git commit -m “comentario o nombre del estado del repositorio”:
 git log –oneline: vemos el commit que hemos hecho
 
 git reset --hard codigo commit: volver al commit especifico
+git commit -am:unir git add. + git commit
