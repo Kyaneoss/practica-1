@@ -9,4 +9,8 @@ git status -s: listar el contenidod el repositorio de git(archivos y carpetas)
 
 git add . : pasar el contenido de la carpeta de trabajo al área de ensayo.
 
+git commit -m “comentario o nombre del estado del repositorio”:  
 
+git log –oneline: vemos el commit que hemos hecho
+
+git reset --hard codigo commit: volver al commit especifico
