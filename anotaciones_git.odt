@@ -15,3 +15,12 @@ git log –oneline: vemos el commit que hemos hecho
 
 git reset --hard codigo commit: volver al commit especifico
 git commit -am:unir git add. + git commit
+
+Traer repositorio de git a github
+
+git remote add origin https://github.com/Kyaneoss/practica-1.git
+git push -u origin main
+
+git pull: cambiar en el local despues de hacer cambios a la nube
+
+git tag 04-10-24V1 -m "version 1 del proyecto practica-1": crear etiquera para un commit
