@@ -23,4 +23,29 @@ git push -u origin main
 
 git pull: cambiar en el local despues de hacer cambios a la nube
 
-git tag 04-10-24V1 -m "version 1 del proyecto practica-1": crear etiquera para un commit
+
+git reset –hard “codigo commit”: restaura hasta el commit indicado y se pierde el trabajo posterior
+
+tags:permiten especificar versiones de un mismo proyecto
+
+	git tag nombre-etiqueta -m "mensaje commit": crear etiquera para un commit
+	
+	git push –tags: para que las etiquetas aparezcan en github
+
+Clonar proyecto de Github a locar:
+
+git clone “direccion del repositorio de github”
+
+Ramas:Branches Lineas de tiempo en el proyecto con sus correspondientes commit
+
+git branch nombre rama: crear una rama
+
+git checkout nombre rama: cambiar de rama
+
+git branch: muestra las ramas y con un asterisco al lado del nombre de la que estamos
+
+
+
+
+
+
